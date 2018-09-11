@@ -1,0 +1,153 @@
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 8px 1em 6px;
+    color: #333;
+    background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #998;
+    font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+    color: #333;
+    font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+    color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+    color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+    color: #900;
+    font-weight: bold;
+}
+
+.hljs-subst {
+    font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+    color: #458;
+    font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+    color: #000080;
+    font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+    color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+    color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+    color: #0086b3;
+}
+
+.hljs-meta {
+    color: #999;
+    font-weight: bold;
+}
+
+.hljs-deletion {
+    background: #fdd;
+}
+
+.hljs-addition {
+    background: #dfd;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
+
+/*
+    Above from https://github.com/highlightjs/highlight.js
+    I have not changed it
+    I added the following
+    Make the markdown document style look like typora
+
+*/
+
+.md-table thead th{
+    border-bottom-width: 1px;
+}
+
+.code-span {
+    border: 1px solid rgb(231, 234, 237);
+    background-color: rgb(243, 244, 244);
+    padding: 0px 4px 2px;
+    color: unset;
+}
+
+.md-table td, .md-table th {
+    padding: 0.50rem;
+}
+
+.md-pre code {
+    border: 1px solid rgb(231, 234, 237);
+}
+
+.md-a, .md-a:hover {
+    color: rgb(65, 131, 196);
+    cursor: pointer;
+}
+
+.md-blockquote {
+    border-left: 4px solid rgb(223, 226, 229);
+    padding: 0px 15px;
+    color: rgb(119, 119, 119);
+}
+
+
+.md-head {
+    font-weight: bold;
+    margin-top: 1.25em;
+}
+
+p > .md-img:only-child {
+    display: block;
+    margin: auto;
+}
+
+.md-img {
+    max-width: 100%;
+    vertical-align: middle;
+}
