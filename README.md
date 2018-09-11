@@ -9,3 +9,9 @@
 I modified them on the basis of them.
 
 Make the markdown document style look like typora.
+
+
+
+### Show
+
+![](https://raw.githubusercontent.com/mnnyang/css_markdown_typora/master/show.png)
